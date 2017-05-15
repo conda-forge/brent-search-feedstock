@@ -1,6 +1,6 @@
 {% set name = "brent-search" %}
-{% set version = "1.0.17" %}
-{% set sha256 = "f42547865498ec501835bcb79c3064e5f5c88b63216b44bcc7b071b928f9fdd3" %}
+{% set version = "1.0.18" %}
+{% set sha256 = "f215346451d2e47aa8b2bc47c0e99887c64997277e00ec8171ce38a5daa0b99e" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -30,16 +30,16 @@ test:
   imports:
     - brent_search
   commands:
-    - python -c "import brent_search; brent_search.test()"
+    - python -c "import sys; import brent_search; sys.exit(brent_search.test())"
 
 about:
-  home: http://github.com/glimix/brent-search
+  home: http://github.com/limix/brent-search
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: "Brent's method for univariate function optimization."
   doc_url: http://brent-search.readthedocs.io
-  dev_url: https://github.com/glimix/brent-search
+  dev_url: https://github.com/limix/brent-search
 
 extra:
   recipe-maintainers:
