@@ -1,6 +1,6 @@
 {% set name = "brent-search" %}
-{% set version = "1.0.22" %}
-{% set sha256 = "500221a76dbe1c9b66e1fd76b6d69719514f8374a3de43d85e955f63cf6a2714" %}
+{% set version = "1.0.24" %}
+{% set sha256 = "7de7568457059a11e8154771157d248518bb5ea74b61373ec4239e4ed709789d" %}
 
 package:
   name: {{ name|lower }}
@@ -19,7 +19,6 @@ requirements:
   build:
     - python
     - setuptools
-    - pbr
     - pytest-runner
   run:
     - python
@@ -27,6 +26,7 @@ requirements:
 test:
   requires:
     - pytest
+    - pytest-pep8
     - numpy
   imports:
     - brent_search
@@ -34,12 +34,12 @@ test:
     - python -c "import sys; import brent_search; sys.exit(brent_search.test())"
 
 about:
-  home: http://github.com/limix/brent-search
+  home: https://github.com/limix/brent-search
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: "Brent's method for univariate function optimization."
-  doc_url: http://brent-search.readthedocs.io
+  doc_url: https://brent-search.readthedocs.io
   dev_url: https://github.com/limix/brent-search
 
 extra:
