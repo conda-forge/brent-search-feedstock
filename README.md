@@ -1,7 +1,7 @@
 About brent-search
 ==================
 
-Home: http://github.com/limix/brent-search
+Home: https://github.com/limix/brent-search
 
 Package license: MIT
 
