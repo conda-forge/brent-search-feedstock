@@ -1,6 +1,6 @@
 {% set name = "brent-search" %}
-{% set version = "1.0.29" %}
-{% set sha256 = "f5728d9662b789252f128cb04b1de9e1df376cf88fef492bb15f8676c419f2a9" %}
+{% set version = "1.0.32" %}
+{% set sha256 = "75e2b8c1a2319e08a71b5efc16a56d1e7c4c21559c99ae4b195eefee2265e9df" %}
 
 package:
   name: {{ name|lower }}
@@ -37,7 +37,7 @@ about:
   home: https://github.com/limix/brent-search
   license: MIT
   license_family: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE.md
   summary: "Brent's method for univariate function optimization."
   doc_url: https://brent-search.readthedocs.io
   dev_url: https://github.com/limix/brent-search
