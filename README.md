@@ -14,14 +14,16 @@ Summary: Brent's method for univariate function optimization.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/brent-search-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/brent-search-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/brent-search-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/brent-search-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/brent-search-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/brent-search-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/brent-search-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/brent-search-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/brent-search-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/brent-search-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/brent-search-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/brent-search-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/brent-search/badges/version.svg)](https://anaconda.org/conda-forge/brent-search)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/brent-search/badges/downloads.svg)](https://anaconda.org/conda-forge/brent-search)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-brent--search-green.svg)](https://anaconda.org/conda-forge/brent-search) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/brent-search.svg)](https://anaconda.org/conda-forge/brent-search) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/brent-search.svg)](https://anaconda.org/conda-forge/brent-search) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/brent-search.svg)](https://anaconda.org/conda-forge/brent-search) |
 
 Installing brent-search
 =======================
