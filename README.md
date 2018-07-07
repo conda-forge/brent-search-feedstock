@@ -14,9 +14,8 @@ Summary: Brent's method for univariate function optimization.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/brent-search-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/brent-search-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/brent-search-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/brent-search-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/brent-search-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/brent-search-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/brent-search-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/brent-search-feedstock)
 
 Current release info
 ====================
