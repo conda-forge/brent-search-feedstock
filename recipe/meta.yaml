@@ -1,6 +1,6 @@
 {% set name = "brent-search" %}
-{% set version = "1.0.33" %}
-{% set sha256 = "7ab4fb74d2c5715a397677af969b475eff4054c6a17b802ffad450317074a86c" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "e57410e60c4b9b3a219d979ad984b615a81d8f0a866bab0328e59228fc1ed082" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
