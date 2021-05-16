@@ -1,6 +1,6 @@
 {% set name = "brent-search" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "e57410e60c4b9b3a219d979ad984b615a81d8f0a866bab0328e59228fc1ed082" %}
+{% set version = "2.0.1" %}
+{% set sha256 = "6153e7541dc19ded662c7149fdc573d9367c41438d8c0e5dbcc751120b3ecb55" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -40,7 +40,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
-  summary: "Brent's method for univariate function optimization."
+  summary: Brent's method for univariate function optimization.
   doc_url: https://brent-search.readthedocs.io
   dev_url: https://github.com/limix/brent-search
 
